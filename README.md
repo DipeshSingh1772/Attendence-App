@@ -10,3 +10,5 @@ fragment four-> delete student data sepretaly
 fragment five-> calender fragment for managing activities
 
 To contribute in this app download or fork repo.
+
+it have one conflict 
