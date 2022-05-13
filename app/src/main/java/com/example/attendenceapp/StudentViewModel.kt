@@ -8,9 +8,9 @@ import kotlinx.coroutines.launch
 class StudentViewModel(private val studentDao: StudentsDao) : ViewModel() {
 
     val allStudentsList: LiveData<List<Students>> = studentDao.getAllStudentData()
-                                                                                                        //added by dps
-    fun addNewItem(studentName: String, studentRollNo: String, studentAge: String,studentGender: String,studentAttendance:String) {
-        val newStudent = getNewStudentEntry(studentName,studentRollNo,studentAge,studentGender,studentAttendance)//added by dps
+
+    fun addNewItem(studentName: String, studentRollNo: String, studentAge: String,studentGender: String) {
+        val newStudent = getNewStudentEntry(studentName,studentRollNo,studentAge,studentGender)//added by dps
         insertStudentDataViewModel(newStudent)
     }
 
@@ -23,14 +23,12 @@ class StudentViewModel(private val studentDao: StudentsDao) : ViewModel() {
         studentRollNo: String,
         studentAge: String,
         studentGender: String,
-        studentAttendance: String //added by dps
     ) : Students{
         return Students(
             studentName = studentName,
             rollNo = studentRollNo.toInt(),
             age = studentAge.toInt(),
             gender = studentGender,
-            attendance = studentAttendance.toInt()//added by dps
         )
     }
 

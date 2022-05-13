@@ -20,7 +20,7 @@ data class Students(
 
     @ColumnInfo(name = "Gender")
     val gender:String,
-
+){
     @ColumnInfo(name = "Attendance")
-    var attendance:Int = 0
-)
+    var attendance:Int = 3
+}

@@ -6,6 +6,7 @@
 
 
     <TextView
+        android:id="@+id/textView2"
         style="@style/TextAppearance.MaterialComponents.Headline6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -34,5 +35,27 @@
         android:src="@drawable/ic_wave__1_"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <ImageView
+            android:id="@+id/start_authentication"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginVertical="20dp"
+            android:src="@drawable/ic_baseline_fingerprint_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click Here"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

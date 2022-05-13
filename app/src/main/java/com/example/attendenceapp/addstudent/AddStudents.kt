@@ -85,8 +85,7 @@ class AddStudents : Fragment() {
                 binding.studentName.text.toString(),
                 binding.RollNo.text.toString(),
                 binding.Age.text.toString(),
-                binding.genderLable.editText?.text.toString(),
-                0.toString()
+                binding.genderLable.editText?.text.toString()
             )
         }
     }

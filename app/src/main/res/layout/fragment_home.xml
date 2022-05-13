@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
     tools:context=".HomeFragment">
 
     <LinearLayout
@@ -11,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
+        android:paddingTop="20dp"
         android:gravity="top|center"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="20dp"
@@ -39,13 +41,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="199dp" />
+        app:layout_constraintGuide_begin="236dp" />
 
     <Button
         android:id="@+id/calender_button"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:text="Calender\ndekhna hai"
+        android:text="Calender"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

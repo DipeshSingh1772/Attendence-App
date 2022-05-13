@@ -23,12 +23,13 @@
         <entry key="..\:/Users/dipes/AndroidStudioProjects/AttendenceApp/app/src/main/res/layout/adapter_student_list.xml" value="0.4" />
         <entry key="..\:/Users/dipes/AndroidStudioProjects/AttendenceApp/app/src/main/res/layout/calender_view.xml" value="0.24094202898550723" />
         <entry key="..\:/Users/dipes/AndroidStudioProjects/AttendenceApp/app/src/main/res/layout/dropdown_item.xml" value="0.12563323201621074" />
-        <entry key="..\:/Users/dipes/AndroidStudioProjects/AttendenceApp/app/src/main/res/layout/fragment_add_students.xml" value="0.12563323201621074" />
+        <entry key="..\:/Users/dipes/AndroidStudioProjects/AttendenceApp/app/src/main/res/layout/fragment_add_students.xml" value="0.2" />
         <entry key="..\:/Users/dipes/AndroidStudioProjects/AttendenceApp/app/src/main/res/layout/fragment_attendence.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/dipes/AndroidStudioProjects/AttendenceApp/app/src/main/res/layout/fragment_calender.xml" value="0.24094202898550723" />
         <entry key="..\:/Users/dipes/AndroidStudioProjects/AttendenceApp/app/src/main/res/layout/fragment_home.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/dipes/AndroidStudioProjects/AttendenceApp/app/src/main/res/layout/fragment_student.xml" value="0.152" />
         <entry key="..\:/Users/dipes/AndroidStudioProjects/AttendenceApp/app/src/main/res/layout/fragment_student_detail.xml" value="0.264" />
+        <entry key="..\:/Users/dipes/AndroidStudioProjects/AttendenceApp/app/src/main/res/layout/front_page.xml" value="0.12563323201621074" />
       </map>
     </option>
   </component>
